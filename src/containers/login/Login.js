@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Layout, Menu, Icon, Carousel, Card, Col, Row, Button, Modal, Divider, Form, Input } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
-import LoremIpsum from '../components/LoremIpsum';
+import LoremIpsum from '../../components/LoremIpsum';
 const { Header, Content } = Layout;
 
 const layout = {

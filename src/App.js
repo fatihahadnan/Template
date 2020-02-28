@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Login from './containers/Login';
+import Login from './containers/login/Login';
 import { Layout, Menu, Icon } from 'antd';
 const { Header, Footer } = Layout;
 
