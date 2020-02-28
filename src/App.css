@@ -18,8 +18,8 @@
 }
 
 .content {
-  min-height: 100vh;
-
+  min-height: 83vh;
+  background-color: azure;
 }
 
 .search-form {

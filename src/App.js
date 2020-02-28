@@ -2,8 +2,9 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Login from './containers/login/Login';
-import { Layout, Menu, Icon } from 'antd';
-const { Header, Footer } = Layout;
+import Home from './containers/home/Home';
+import { Layout } from 'antd';
+const { Footer } = Layout;
 
 const App = () => {
 
@@ -14,11 +15,12 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/" component={Login}/>
+        <Route path="/" exact component={Login}/>
+        <Route path="/home" component={Home}/>
       </Switch>
   
         <Layout className="layout">
-          <Footer className="footer">Fatihah Adnan ©2020</Footer>
+          <Footer className="footer">Fatihah Adnan © 2020</Footer>
         </Layout>
 
     </Router>
